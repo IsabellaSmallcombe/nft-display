@@ -36,3 +36,31 @@
     transform: rotate(360deg);
   }
 }
+
+input {
+  background: purple;
+  border: none;
+  padding: 5px;
+  border-radius: 25px;
+  color: white;
+}
+
+.asset-row {
+  display: inline-flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  margin: auto;
+}
+
+.asset-container-box {
+  display: inline-block;
+  justify-content: center;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+.header-flex-box {
+  display: flex;
+  flex-direction: row;
+}

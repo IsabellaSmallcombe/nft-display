@@ -1,0 +1,22 @@
+.imageAsset{
+    max-width: 300px;
+    max-height: 300px;
+    border-radius: 25px;
+}
+
+.animationAsset{
+    max-width: 300px;
+    max-height: 300px;
+    border-radius: 25px;
+}
+
+.asset-card{
+    display: flex;
+    width: 315px;
+    height: 320px;
+    margin: 10px;
+    justify-content: center;
+    border-radius: 15px;
+    align-items:center;
+    /* box-shadow: rgb(37 41 46 / 20%) 0px 10px 30px; */
+}
