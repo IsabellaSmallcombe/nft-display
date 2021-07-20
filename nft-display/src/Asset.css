@@ -1,22 +1,31 @@
 .imageAsset{
-    max-width: 300px;
-    max-height: 300px;
+    width: 250px;
+    height: 250px;
     border-radius: 25px;
+    box-shadow: rgb(37 41 46 / 40%) 0px 10px 30px;
+    box-shadow: 0 0px 20px rgba(255, 255, 255, 0.74);
 }
 
 .animationAsset{
-    max-width: 300px;
-    max-height: 300px;
+    width: 250px;
+    height: 250px;
     border-radius: 25px;
+    box-shadow: 0 0px 20px rgba(255, 255, 255, 0.74);
 }
 
 .asset-card{
     display: flex;
     width: 315px;
     height: 320px;
-    margin: 10px;
+    margin: 5px;
     justify-content: center;
     border-radius: 15px;
     align-items:center;
-    /* box-shadow: rgb(37 41 46 / 20%) 0px 10px 30px; */
+    position: relative;
+    top: 0;
+    transition: top ease 0.5s;
+}
+
+.asset-card:hover {
+    top: -10px;
 }
